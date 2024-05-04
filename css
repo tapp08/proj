@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+#cabecalho {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(255, 187, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    width: 100%;
+    height:60%;
+    display: inherit;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid blue;
+}
+.menu {
+    width: 100vw;
+    height: 40%;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-bottom: 5px solid rgb(255, 187, 0);
+}
+.menu_links {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+}
+.menu_links a{
+    text-decoration: none;
+    color: blue;
+    border: 1px solid blue;
+    padding: 3px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 7px black;
+}
+.pesquisa {
+    height: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+#pesquisa_header {
+    background-color: none;
+    border: none;
+    outline: none;
+}
+.img_lupa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7px;
+    margin-right: 10px;
+}
+.icon_perfil {
+    margin-left: 30px;
+}
+#nome_jogador {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.reta_azul {
+    width: 500px;
+    border-bottom: 3px solid blue;
+    margin-top: 10px;
+}
+.info_player {
+    margin-top: 20px;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_player {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.infos_jogador {
+    background-color: blue;
+    border-radius: 30px 0px 0px 0px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.info_text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+}
+.info_jog1 {
+    margin-left: 30px;
+}
+.info_jog1 p {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.valor_jogador {
+    background-color: yellow;
+    padding: 40px 80px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+   right: 80px;
+    top: 190px;
+}
+.informacoes {
+    width: 100vw;
+}
+.full_info_player {
+    width: 40vw;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 17px;
+}
+.info1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
