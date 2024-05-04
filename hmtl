@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/css/style.css" />
+    <title>Nome do site</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="header">
+            <div class="img_brasil">
+                <img src="/Assets/img/logo_brasil.png" width="40px" />
+            </div>
+            <div class="pesquisa">
+                <div class="img_lupa">
+                    <img src="/Assets/img/lupa.png" width="20px" />
+                </div>
+                <input id="pesquisa_header" type="text" />
+            </div>
+            <div class="icon_perfil">
+                <img src="./Assets/img/icon.png" width="40px" />
+            </div>
+        </div>
+        <div class="menu">
+            <nav>
+                <div class="menu_links">
+                    <a href="">Campeonatos</a>
+                    <a href="">Transferencias</a>
+                    <a href="">Clubes</a>
+                    <a href="">Valores de mercado</a>
+                </div>
+            </nav>
+        </div>
+        
+    </header>
+    <div class="nome_player">
+        <h1 id="nome_jogador">Caio Alexandre</h1>
+        <div class="reta_azul"></div>
+    </div>
+
+    <div class="info_player">
+        <div class="img_player">
+            <img src="/Assets/img/caio.png" width="120px" />
+        </div>
+        <div class="infos_jogador">
+            <div class="info_text">
+                <div class="info_jog1">
+                    <p>Nasc./Idade: 24/02/1999(25)</p>
+                    <p>Local de Nascimento: Duque de Caxias - BR</p>
+                    <p>Nascionalidade: Brasil</p>
+                </div>
+                <div class="info_jog1">
+                    <p>Altura: 1,74m</p>
+                    <p>Posição: Volante</p>
+                </div>
+            </div>
+            <div class="valor_jogador">
+                <h1>5.00 mi</h1>
+                <p>Valor de Mercado</p>
+            </div>
+        </div>
+    </div>
+    <main class="informacoes">
+        <div class="stats_player">
+            <div class="info_stats_player">
+                <div class="full_info_player">
+                <div class="info1">
+                    <p>Nome Completo:</p>
+                    <p>Caio Alexandre Souza e Silva</p>
+                </div>
+                <div class="info1">
+                    <p>Nascimento:</p>
+                    <p>24/02/1999(25)</p>
+                </div>
+                <div class="info1">
+                    <p>Local de Nascimento:</p>
+                    <p>Duque de Caxias</p>
+                </div>
+                <div class="info1">
+                    <p>Altura:</p>
+                    <p>1,74m</p>
+                </div>
+                <div class="info1">
+                    <p>Nacionalidade:</p>
+                    <p>Brasil</p>
+                </div>
+                <div class="info1">
+                    <p>Posição</p>
+                    <p>Meio-Campo-Volante</p>
+                </div>
+                <div class="info1">
+                    <p>Pé:</p>
+                    <p>Direito</p>
+                </div>
+                <div class="info1">
+                    <p>Empresários:</p>
+                    <p>A10 PRO</p>
+                </div>
+                <div class="info1">
+                    <p>Clube Atual:</p>
+                    <p>EC Bahia</p>
+                </div>
+                <div class="info1">
+                    <p>No time desde:</p>
+                    <p>18/01/2024</p>
+                </div>
+                <div class="info1">
+                    <p>Contrato até:</p>
+                    <p>31/12/2028</p>
+                </div>
+                <div class="info1">
+                    <p>Fornecedor</p>
+                    <p>Adidas</p>
+                </div>
+                </div>
+                <div class="full_stats_player"></div>
+            </div>
+        </div>
+
+        <div class="propagandas"></div>
+    </main>
+    
+
+    
+</body>
+</html>
